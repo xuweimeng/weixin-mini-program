@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "随访计划",
+  "navigationBarBackgroundColor": "#000",
+  "usingComponents": {
+    "i-radio-group": "../../../static/iview/radio-group/index",
+    "i-radio": "../../../static/iview/radio/index",
+    "i-icon": "../../../static/iview/icon/index",
+    "i-tabs": "../../../static/iview/tabs/index",
+    "i-tab": "../../../static/iview/tab/index"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/followPlan/main",
+    "pages/index/main",
+    "pages/followRecords/main",
+    "pages/mine/main",
+    "pages/logs/main",
+    "pages/counter/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#f6f7fa",
+    "selectedColor": "#f36837",
+    "list": [{
+      "pagePath": "pages/index/main",
+      "text": "首页",
+      "iconPath": "./assets/images/tabIcon/home.png",
+      "selectedIconPath": "./assets/images/tabIcon/home1.png"
+    }, {
+      "pagePath": "pages/followPlan/main",
+      "text": "随访计划",
+      "iconPath": "./assets/images/tabIcon/follow.png",
+      "selectedIconPath": "./assets/images/tabIcon/follow1.png"
+    }, {
+      "pagePath": "pages/followRecords/main",
+      "text": "随访记录",
+      "iconPath": "./assets/images/tabIcon/record.png",
+      "selectedIconPath": "./assets/images/tabIcon/record1.png"
+    }, {
+      "pagePath": "pages/mine/main",
+      "text": "我的",
+      "iconPath": "./assets/images/tabIcon/mine.png",
+      "selectedIconPath": "./assets/images/tabIcon/mine1.png"
+    }]
+
+  },
+  "debug": true
+}

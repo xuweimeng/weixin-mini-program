@@ -1,0 +1,6 @@
+// 宽高
+@mixin size($width, $height, $background) {
+  width: $width;
+  height: $height;
+  background: $background;
+}
